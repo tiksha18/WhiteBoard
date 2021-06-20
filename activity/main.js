@@ -14,7 +14,7 @@ function createWindow()
         }
     });
     
-    //it loads the html file to run as a desktop app using electron
+    
     win.loadFile("./index.html").then(function()   
     {
         win.maximize();      
